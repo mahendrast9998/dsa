@@ -1,0 +1,15 @@
+n=int(input("Enter the number"))
+m = 0 ;
+o=n;
+for i in range(n):
+    space=i-1
+    if (space >=0):
+        for k in range (m):
+            print(" ",end=" ")
+    for j in range (o):
+        print("*",end=" ");
+        j=j+1
+    print("\n")    
+    i=i+1
+    m=m+1
+    o=o-1    
