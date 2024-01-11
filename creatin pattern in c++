@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout<<"Enter thr number" <<endl;
+    int n;
+    cin>>n;
+    int o=n;
+    int i=1;
+    
+    int y = n;
+    int l =n;
+    while(i<=n)
+    {
+        int j=1;
+        while(j<=o)
+        {
+            cout<<j;
+            j=j+1;
+           
+        }
+        int star =i-1;
+        if (star>0)
+        {
+            int z= star*2;
+            while(z>0)
+            {
+                cout<<"*";
+                z=z-1;
+            }
+        }
+        
+        while(l>=y)
+        { int k=l;
+            while(k>0){
+                 cout<<k;
+                  k=k-1;
+            }
+            l=l-1;
+        
+        }
+        y=y-1;
+        o=o-1;
+        i=i+1;
+        cout<<endl;
+    }
+    
+}
